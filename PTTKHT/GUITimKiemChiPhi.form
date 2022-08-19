@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.BaiTapLon.ManHinhTimKiemChiPhi">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="545" height="400"/>
+    </constraints>
+    <properties>
+      <focusable value="false"/>
+      <preferredSize width="600" height="60"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="7b892" binding="panelChinh" layout-manager="FlowLayout" hgap="5" vgap="20" flow-align="1">
+        <constraints/>
+        <properties>
+          <name value=""/>
+          <preferredSize width="600" height="60"/>
+        </properties>
+        <border type="none">
+          <color color="-16729314"/>
+        </border>
+        <children>
+          <component id="cbb6e" class="javax.swing.JCheckBox" binding="cBoxGTNho">
+            <constraints/>
+            <properties>
+              <label value=""/>
+              <preferredSize width="25" height="25"/>
+              <selected value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="85d5" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <font name="Tahoma" size="12" style="0"/>
+              <horizontalAlignment value="2"/>
+              <name value=""/>
+              <preferredSize width="60" height="25"/>
+              <text value="Giá trị từ: "/>
+            </properties>
+          </component>
+          <component id="8c6fc" class="javax.swing.JTextField" binding="giaNho">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <name value=""/>
+              <opaque value="true"/>
+              <preferredSize width="100" height="25"/>
+              <text value="0"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="3ff5b" class="javax.swing.JCheckBox" binding="cBoxGTLon">
+            <constraints/>
+            <properties>
+              <label value=""/>
+              <opaque value="false"/>
+              <preferredSize width="25" height="25"/>
+              <selected value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="94831" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <font name="Tahoma" size="12" style="0"/>
+              <horizontalAlignment value="2"/>
+              <name value=""/>
+              <preferredSize width="25" height="25"/>
+              <text value="tới:"/>
+            </properties>
+          </component>
+          <component id="d0adc" class="javax.swing.JTextField" binding="giaLon">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <name value=""/>
+              <opaque value="true"/>
+              <preferredSize width="100" height="25"/>
+              <text value="150000"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <grid id="9c2eb" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <preferredSize width="50" height="25"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="48" class="javax.swing.JButton" binding="dongY">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <font name="Tahoma" size="12" style="0"/>
+              <opaque value="false"/>
+              <text value="Tìm"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

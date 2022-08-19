@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.BaiTapLon.ManHinhTongGiaTri">
+  <grid id="27dc6" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="490" height="320"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="7af04" binding="PanelChinh" layout-manager="FlowLayout" hgap="0" vgap="10" flow-align="1">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <autoscrolls value="false"/>
+          <doubleBuffered value="false"/>
+          <focusable value="false"/>
+          <font name="Tahoma" size="18" style="0"/>
+          <maximumSize width="1000" height="1000"/>
+          <minimumSize width="100" height="100"/>
+          <preferredSize width="480" height="320"/>
+          <requestFocusEnabled value="false"/>
+        </properties>
+        <border type="none" title-justification="2" title-position="1">
+          <font name="Tahoma" size="16" style="0"/>
+          <color color="-4521966"/>
+        </border>
+        <children>
+          <grid id="15505" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <name value=""/>
+              <preferredSize width="350" height="25"/>
+            </properties>
+            <border type="none">
+              <color color="-16729314"/>
+            </border>
+            <children>
+              <component id="99a9a" class="javax.swing.JCheckBox" binding="cBoxTenKH">
+                <constraints/>
+                <properties>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <minimumSize width="0" height="0"/>
+                  <preferredSize width="25" height="25"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="10259" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Tahoma" size="12" style="0"/>
+                  <horizontalAlignment value="2"/>
+                  <name value=""/>
+                  <preferredSize width="105" height="25"/>
+                  <text value="Tên khách hàng: "/>
+                </properties>
+              </component>
+              <component id="ef024" class="javax.swing.JTextField" binding="tenKH">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="true"/>
+                  <enabled value="false"/>
+                  <name value=""/>
+                  <opaque value="true"/>
+                  <preferredSize width="200" height="25"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c0c01" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <preferredSize width="350" height="25"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1f643" class="javax.swing.JCheckBox" binding="cBoxSoCMND">
+                <constraints/>
+                <properties>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <minimumSize width="0" height="0"/>
+                  <preferredSize width="25" height="25"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="6f3c7" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Tahoma" size="12" style="0"/>
+                  <name value=""/>
+                  <preferredSize width="105" height="25"/>
+                  <text value="Số CMND: "/>
+                </properties>
+              </component>
+              <component id="d547a" class="javax.swing.JTextField" binding="soCMND">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <enabled value="false"/>
+                  <focusable value="true"/>
+                  <name value=""/>
+                  <preferredSize width="200" height="25"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f8c83" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <preferredSize width="350" height="25"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6eb77" class="javax.swing.JCheckBox" binding="cBoxBienSoXe">
+                <constraints/>
+                <properties>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <minimumSize width="0" height="0"/>
+                  <preferredSize width="25" height="25"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="3e5a0" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font name="Tahoma" size="12" style="0"/>
+                  <preferredSize width="105" height="25"/>
+                  <text value="Biển số xe: "/>
+                </properties>
+              </component>
+              <component id="9bcf7" class="javax.swing.JTextField" binding="bienSoXe">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <enabled value="false"/>
+                  <preferredSize width="200" height="25"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ddcad" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.0"/>
+              <alignmentY value="0.0"/>
+              <minimumSize width="500" height="25"/>
+              <preferredSize width="350" height="25"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b847b" class="javax.swing.JCheckBox" binding="cBoxBatDau">
+                <constraints/>
+                <properties>
+                  <focusable value="false"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <minimumSize width="0" height="0"/>
+                  <preferredSize width="25" height="25"/>
+                  <text value=""/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="619fb" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font name="Tahoma" size="12" style="0"/>
+                  <preferredSize width="102" height="25"/>
+                  <text value="Bắt đầu thuê sau:"/>
+                </properties>
+              </component>
+              <grid id="bab0a" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="1">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="77182" class="javax.swing.JComboBox" binding="ngayBD">
+                    <constraints/>
+                    <properties>
+                      <enabled value="false"/>
+                      <focusable value="false"/>
+                      <font name="Tahoma" size="12" style="0"/>
+                      <minimumSize width="50" height="25"/>
+                      <opaque value="true"/>
+                      <preferredSize width="60" height="25"/>
+                    </properties>
+                  </component>
+                  <component id="d6473" class="javax.swing.JComboBox" binding="thangBD">
+                    <constraints/>
+                    <properties>
+                      <enabled value="false"/>
+                      <focusable value="false"/>
+                      <font name="Tahoma" size="12" style="0"/>
+                      <minimumSize width="50" height="25"/>
+                      <opaque value="true"/>
+                      <preferredSize width="60" height="25"/>
+                      <requestFocusEnabled value="true"/>
+                    </properties>
+                  </component>
+                  <component id="88285" class="javax.swing.JComboBox" binding="namBD">
+                    <constraints/>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <enabled value="false"/>
+                      <font name="Tahoma" size="12" style="0"/>
+                      <minimumSize width="50" height="25"/>
+                      <opaque value="true"/>
+                      <preferredSize width="60" height="25"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="477e2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.0"/>
+              <alignmentY value="0.0"/>
+              <minimumSize width="500" height="25"/>
+              <preferredSize width="350" height="25"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a9302" class="javax.swing.JCheckBox" binding="cBoxKetThuc">
+                <constraints/>
+                <properties>
+                  <focusable value="false"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <minimumSize width="0" height="0"/>
+                  <preferredSize width="25" height="25"/>
+                  <text value=""/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="52c5f" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font name="Tahoma" size="12" style="0"/>
+                  <preferredSize width="102" height="25"/>
+                  <text value="Trả xe trước: "/>
+                </properties>
+              </component>
+              <grid id="cdbda" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="1">
+                <constraints/>
+                <properties>
+                  <minimumSize width="200" height="25"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="cffc7" class="javax.swing.JComboBox" binding="ngayKT">
+                    <constraints/>
+                    <properties>
+                      <enabled value="false"/>
+                      <focusable value="false"/>
+                      <font name="Tahoma" size="12" style="0"/>
+                      <minimumSize width="50" height="25"/>
+                      <opaque value="true"/>
+                      <preferredSize width="60" height="25"/>
+                    </properties>
+                  </component>
+                  <component id="edba4" class="javax.swing.JComboBox" binding="thangKT">
+                    <constraints/>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <enabled value="false"/>
+                      <font name="Tahoma" size="12" style="0"/>
+                      <minimumSize width="50" height="25"/>
+                      <opaque value="true"/>
+                      <preferredSize width="60" height="25"/>
+                    </properties>
+                  </component>
+                  <component id="f67ea" class="javax.swing.JComboBox" binding="namKT">
+                    <constraints/>
+                    <properties>
+                      <enabled value="false"/>
+                      <focusable value="false"/>
+                      <font name="Tahoma" size="12" style="0"/>
+                      <minimumSize width="50" height="25"/>
+                      <opaque value="true"/>
+                      <preferredSize width="60" height="25"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="fbd33" binding="panelChinh" layout-manager="FlowLayout" hgap="4" vgap="0" flow-align="0">
+            <constraints/>
+            <properties>
+              <name value=""/>
+              <preferredSize width="340" height="25"/>
+            </properties>
+            <border type="none">
+              <color color="-16729314"/>
+            </border>
+            <children>
+              <component id="9e2c8" class="javax.swing.JCheckBox" binding="cBoxGTNho">
+                <constraints/>
+                <properties>
+                  <label value=""/>
+                  <preferredSize width="25" height="25"/>
+                  <selected value="false"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="7f85f" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Tahoma" size="12" style="0"/>
+                  <horizontalAlignment value="2"/>
+                  <name value=""/>
+                  <preferredSize width="100" height="25"/>
+                  <text value="Giá trị từ: "/>
+                </properties>
+              </component>
+              <component id="b000" class="javax.swing.JTextField" binding="giaNho">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="true"/>
+                  <enabled value="false"/>
+                  <name value=""/>
+                  <opaque value="true"/>
+                  <preferredSize width="100" height="25"/>
+                  <text value="0"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <grid id="271b1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints/>
+                <properties>
+                  <preferredSize width="80" height="25"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="5ecb8" layout-manager="FlowLayout" hgap="4" vgap="0" flow-align="0">
+            <constraints/>
+            <properties>
+              <preferredSize width="340" height="25"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2d03a" class="javax.swing.JCheckBox" binding="cBoxGTLon">
+                <constraints/>
+                <properties>
+                  <label value=""/>
+                  <opaque value="false"/>
+                  <preferredSize width="25" height="25"/>
+                  <selected value="false"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="8469" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Tahoma" size="12" style="0"/>
+                  <horizontalAlignment value="2"/>
+                  <name value=""/>
+                  <preferredSize width="100" height="25"/>
+                  <text value="tới:"/>
+                </properties>
+              </component>
+              <component id="18048" class="javax.swing.JTextField" binding="giaLon">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="true"/>
+                  <enabled value="false"/>
+                  <name value=""/>
+                  <opaque value="true"/>
+                  <preferredSize width="100" height="25"/>
+                  <text value="150000"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="42480" layout-manager="FlowLayout" hgap="0" vgap="10" flow-align="1">
+            <constraints/>
+            <properties>
+              <preferredSize width="350" height="40"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b5612" class="javax.swing.JButton" binding="dongY">
+                <constraints/>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Tahoma" size="12" style="0"/>
+                  <opaque value="true"/>
+                  <preferredSize width="100" height="25"/>
+                  <text value="Tính"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
